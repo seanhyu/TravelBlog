@@ -3,6 +3,7 @@
     text-align: center;
     padding-top: 1rem;
     position: relative;
+    background-color: #f6c4c4;
 }
 
 .bio-container {
@@ -15,6 +16,7 @@
     gap: var(--gap);
     margin: auto;
     padding: 1rem 0;
+    color: transparent;
 }
 
 .bio img {

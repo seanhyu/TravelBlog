@@ -10,6 +10,7 @@ function Hero() {
             <video autoPlay loop muted id='video'>
                 <source src={Video} type='video/mp4' />
             </video>
+            <div className='overlay'></div>
             <div className='content'>
                 <h1>Your Dream Trip Reimagined</h1>
                 <form className='form'>
