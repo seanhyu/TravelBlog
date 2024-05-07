@@ -1,6 +1,6 @@
 import React from 'react'
 import './FooterStyles.css'
-import {Link} from 'react-scroll'
+import {Link} from 'react-router-dom'
 
 
 import {FaInstagram} from 'react-icons/fa'
@@ -22,12 +22,12 @@ function Footer() {
                 </div>
                 <div className='bottom'>
                     <ul>
-                        <Link to='home' smooth={true} duration={500}><li>Home</li></Link>
-                        <Link to='destinations' smooth={true} duration={500}><li>Destinations</li></Link>
-                        <li>Gear</li>
-                        <li>Finances</li>
-                        <li>Contact</li>
-                        <li>About</li>
+                        <Link to='/' ><li>Home</li></Link>
+                        <Link to='/destinations' ><li>Destinations</li></Link>
+                        <Link to='/gear' ><li>Gear</li></Link>
+                        <Link to='/finances' ><li>Finances</li></Link>
+                        <Link to='/contact' ><li>Contact</li></Link>
+                        <Link to='/about' ><li>About</li></Link>
                     </ul>
                 </div>
             </div>

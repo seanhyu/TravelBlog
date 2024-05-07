@@ -6,7 +6,7 @@ import {FaInstagram} from 'react-icons/fa'
 import {FaYoutube} from 'react-icons/fa'
 import {FaLinkedin} from 'react-icons/fa'
 
-import {Link} from 'react-scroll'
+import {Link} from 'react-router-dom'
 
 import {AiOutlineClose} from 'react-icons/ai'
 
@@ -17,15 +17,16 @@ function Navbar() {
     const handleNav = () => setNav(!nav);
     return (
         <div name='home' className='navbar'>
+            <div className='overlay'></div>
             <div className='logo'>
                 <h2>Sean's Travel Blog </h2>
             </div>
             <ul className='nav-menu'>
-                <Link to='home' smooth={true} duration={500}><li>Home</li></Link>
-                <Link to='destinations' smooth={true} duration={500}><li>Destinations</li></Link>
-                <Link to=''><li>Gear</li></Link>
-                <Link to=''><li>Finances</li></Link>
-                <Link to=''><li>About</li></Link>
+                <Link to='/'><li>Home</li></Link>
+                <Link to='/destinations' ><li>Destinations</li></Link>
+                <Link to='/gear'><li>Gear</li></Link>
+                <Link to='/finances'><li>Finances</li></Link>
+                <Link to='/about'><li>About</li></Link>
             </ul>
             <div className='nav-icons'>
                 <BiSearch className='icon' style={{marginRight: "1rem"}}/>
