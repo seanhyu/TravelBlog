@@ -16,7 +16,7 @@ function Navbar() {
     const [nav,setNav] = useState(false);
     const handleNav = () => setNav(!nav);
     return (
-        <div name='home' className={nav ? 'navbar navbar-menu' : 'navbar'}>
+        <div name='home' className='navbar'>
             <div className='logo'>
                 <h2>Sean's Travel Blog </h2>
             </div>
