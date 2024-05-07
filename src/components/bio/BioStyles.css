@@ -2,9 +2,11 @@
     width: 100%;
     text-align: center;
     padding-top: 1rem;
+    padding-bottom: 1rem;
     position: relative;
     background-color: #f6c4c4;
 }
+
 
 .bio-container {
     --gap: 2rem;

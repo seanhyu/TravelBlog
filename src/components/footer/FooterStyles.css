@@ -1,0 +1,36 @@
+.footer {
+    width: 100%;
+    padding: 2rem 0;
+    background-color: rgb(200, 220, 220);
+}
+
+.footer h3 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.footer .social {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer ul {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 1140px) {
+    .footer ul {
+        flex-direction: column;
+        width: 100%
+        
+    }
+}
+
