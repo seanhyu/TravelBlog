@@ -27,6 +27,12 @@
     color: #fff;
 }
 
+.hero .content h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
 .form {
     display: flex;
     background-color: #ffffffcc;
@@ -46,7 +52,7 @@
     border: transparent;
     width: 400px;
     font-size: 1.2rem;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Merriweather', sans-serif;
 }
 
 .form input[type=text]:focus {

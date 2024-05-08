@@ -1,12 +1,12 @@
 import React from 'react'
 import './SelectsImgsStyles.css'
 
-function SelectsImg({bgImg,text}) {
+function SelectsImg(props) {
     return (
         <div className='selects-location'>
-            <img src={bgImg} alt = "/" />
+            <img src={props.bgImg} alt = "/" />
             <div className='overlay'>
-                <p>{text}</p>
+                <p>{props.text}</p>
             </div>
         </div>
     )

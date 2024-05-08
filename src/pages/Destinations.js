@@ -1,12 +1,14 @@
 import React from 'react'
 
-import EBC from '../assets/EBC.jpg'
+import MP from '../assets/machuPicchu.jpg'
 import Standard from '../components/standard/Standard'
+import DestBody from '../components/destBody/DestBody'
 
 export function Destinations() {
     return (
       <div>
-        <Standard bgImg={EBC} text="Destinations"/>
+        <Standard bgImg={MP} text="Destinations" />
+        <DestBody />
       </div>
     )
   }

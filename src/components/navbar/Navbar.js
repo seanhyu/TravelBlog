@@ -19,7 +19,7 @@ function Navbar() {
         <div name='home' className='navbar'>
             <div className='overlay'></div>
             <div className='logo'>
-                <h2>Sean's Travel Blog </h2>
+                <h2>Wandering Sean </h2>
             </div>
             <ul className='nav-menu'>
                 <Link to='/'><li>Home</li></Link>

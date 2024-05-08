@@ -1,0 +1,22 @@
+.dest-body h1{
+    position: flex;
+    text-align: center;
+    padding-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.dest-images .container {
+    display: grid;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+}
+
+@media screen and (max-width: 740px) {
+    .dest-images .container {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
