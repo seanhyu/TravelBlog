@@ -6,8 +6,16 @@
     margin-right: auto;
 }
 
+.dest-body p1 {
+    position: flex;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+}
 
-.dest-images .container {
+
+.dest-images .container-grid {
     display: grid;
     padding-top: 3rem;
     padding-bottom: 3rem;

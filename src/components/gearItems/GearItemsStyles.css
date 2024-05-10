@@ -1,0 +1,27 @@
+.gear-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 0rem;
+}
+
+.gear-items img {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    grid-row: span 2;
+    grid-column: span 1;
+}
+
+.span-2-col {
+    grid-column: span 2;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.gear-grid li {
+    padding-top: none;
+    font-size: 1rem;
+}
+
+
