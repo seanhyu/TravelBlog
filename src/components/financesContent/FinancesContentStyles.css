@@ -1,0 +1,29 @@
+.finances-content h2 {
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.finances-content h3 {
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+.finances-content h4 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.finances-content p {
+    font-size: 1rem;
+}
+
+.other-cards {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-bottom: 1.5rem;
+}
+
+.other-cards li {
+    font-size: 1rem;
+}
