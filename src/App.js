@@ -10,6 +10,7 @@ import { Peru } from "./pages/locations/Peru"
 import { Nepal } from "./pages/locations/Nepal"
 import Navbar from './components/navbar/Navbar'
 import Footer from './components/footer/Footer'
+import { Patagonia } from './pages/locations/Patagonia'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Route path="/contact" element={<Contact />} />
       <Route path="/peru" element={<Peru />} />
       <Route path="/nepal" element={<Nepal />} />
+      <Route path='/patagonia' element={<Patagonia/>} />
     </Routes>
     <Footer/>
     </>
