@@ -1,0 +1,36 @@
+.all-text {
+    padding-top: 1rem;
+}
+
+.all-text p {
+    padding-bottom: 1rem;
+}
+
+.image-text {
+    padding-top: 1rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+
+.image-text img {
+    height: 270px;
+}
+.image-text p {
+    grid-column: span 2;
+}
+
+.bullets {
+    padding-top: 1rem;
+    width: 100%;
+}
+
+.bullets li {
+    font-size: 1rem;
+}
+
+.linebreak {
+    padding-top: 1rem;
+}
+

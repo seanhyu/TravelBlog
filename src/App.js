@@ -6,6 +6,8 @@ import { About } from "./pages/About"
 import { Gear } from "./pages/Gear"
 import { Finances } from "./pages/Finances"
 import { Contact } from "./pages/Contact"
+import { Peru } from "./pages/locations/Peru"
+import { Nepal } from "./pages/locations/Nepal"
 import Navbar from './components/navbar/Navbar'
 import Footer from './components/footer/Footer'
 
@@ -20,6 +22,8 @@ function App() {
       <Route path="/gear" element={<Gear />} />
       <Route path="/finances" element={<Finances />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/peru" element={<Peru />} />
+      <Route path="/nepal" element={<Nepal />} />
     </Routes>
     <Footer/>
     </>

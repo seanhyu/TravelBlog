@@ -17,12 +17,12 @@ function Selects() {
         <div name='destinations' className='selects'>
             <h1>Top Destinations</h1>
             <div className='container'>
-                <SelectsImg bgImg={Ausangate} text="Peru"/>
-                <SelectsImg bgImg={Everest} text="Nepal"/>
-                <SelectsImg bgImg={Patagonia} text="Patagonia"/>
-                <SelectsImg bgImg={Tongariro} text="New Zealand"/>
-                <SelectsImg bgImg={Reynisfjara} text="Iceland"/>
-                <SelectsImg bgImg={Lauterbrunnen} text="Switzerland"/>
+                <SelectsImg bgImg={Ausangate} text="Peru" link="/peru"/>
+                <SelectsImg bgImg={Everest} text="Nepal" link="/nepal"/>
+                <SelectsImg bgImg={Patagonia} text="Patagonia" link="/patagonia"/>
+                <SelectsImg bgImg={Tongariro} text="New Zealand" link="/nz"/>
+                <SelectsImg bgImg={Reynisfjara} text="Iceland" link="/iceland"/>
+                <SelectsImg bgImg={Lauterbrunnen} text="Switzerland" link="/switzerland"/>
             </div>
         </div>
     )
