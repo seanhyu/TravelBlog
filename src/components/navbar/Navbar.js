@@ -23,7 +23,7 @@ function Navbar() {
             </div>
             <ul className='nav-menu'>
                 <Link to='/'><li>Home</li></Link>
-                <Link to='/destinations' ><li>Destinations</li></Link>
+                <Link to='/blog' ><li>Blog</li></Link>
                 <Link to='/gear'><li>Gear</li></Link>
                 <Link to='/finances'><li>Finances</li></Link>
                 <Link to='/about'><li>About</li></Link>
@@ -37,11 +37,11 @@ function Navbar() {
             </div>
             <div className={nav ? 'mobile-menu active' : "mobile-menu"}>
                 <ul className='mobile-nav'>
-                    <Link to='home' smooth={true} duration={500}><li>Home</li></Link>
-                    <Link to='destinations' smooth={true} duration={500}><li>Destinations</li></Link>
-                    <li>Gear</li>
-                    <li>Finances</li>
-                    <li>About Me</li> 
+                    <Link to='/' smooth={true} duration={500}><li>Home</li></Link>
+                    <Link to='/blog' smooth={true} duration={500}><li>Blog</li></Link>
+                    <Link to='/gear'><li>Gear</li></Link>
+                    <Link to='/finances'><li>Finances</li></Link>
+                    <Link to='/about'><li>About Me</li></Link> 
                 </ul>
                 <div className='mobile-menu-buttons'>
                     <div className='menu-icons'>

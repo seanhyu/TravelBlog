@@ -7,7 +7,7 @@ import DestBody from '../components/destBody/DestBody'
 export function Destinations() {
     return (
       <div>
-        <Standard bgImg={MP} text="Destinations" />
+        <Standard bgImg={MP} text="Blog" />
         <DestBody />
       </div>
     )

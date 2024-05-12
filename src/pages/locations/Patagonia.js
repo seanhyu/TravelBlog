@@ -24,7 +24,13 @@ export function Patagonia() {
                         <br/><br/>
                     </p>
                 </div>
+                <div className='linebreak' />
+                <h3>Glacier Trekking</h3>
+                <div className='all-text'>
+                    <p>While at Glacier Grey, you have the option to book a glacier trekking tour. If you have never hiked on a glacier before, I would highly recommend trying it in Patagonia! I have hiked on glaciers in Alaska, Iceland, and Patagonia, and in my opinion, the glaciers in Patagonia are much cooler, with much deeper shades of blue. While not a must if you are short on time or worried about endurance, I think it's a worthwhile side excursion for anyone completing the O-trek in 8 days, since Day 5 (from Glacier Grey to Paine Grande) is a relatively short and easy day, which allows you to do the glacier trekking in the morning first. </p>
+                </div>
                 <div className='linebreak'/>
+                
                 <h3>The W-Trek </h3>
                 <div className='all-text'>
                     <p>
@@ -39,6 +45,17 @@ export function Patagonia() {
                         <br/><br/> If you plan on going to Mirador Las Torres for sunrise, you should try to book a reservation at the Chileno campsite for the night before. Unfortunately for me, Chileno was fully booked so I had to stay further away from the towers, and hike 6 miles with 2,700 feet elevation gain in complete darkness to go see the towers for sunrise. Save yourself the effort and book a site at Chileno early! 
                     </p>
                 </div>
+                <div className='linebreak' />
+                <h3>Logistics & Accomodation</h3>
+                <div className='all-text'>
+                    <h4>Getting to Torres Del Paine:</h4>
+                    <p>To get to Torres Del Paine National Park, I recommend flying directly to Puerto Natales. While you can also fly to Punta Arenas, you would then have to take a long bus ride to get to Puerto Natales, which could needlessly lengthen your trip by up to 2 days. From Puerto Natales, you need to book a bus from the city to Torres Del Paine. There are multiple companies that offer this route; I ended up riding with the company Big Sur.</p> 
+                    <h4>Booking the trek</h4>
+                    <p>Both the O Circuit and the W trek sell out very early. You should plan to book campsites at least 6 months in advance for the best availability. I booked only 4 months in advance and was unable to find reservations for the Chileno campsite, which made my trek to Mirador Las Torres for sunrise much longer. 
+                        <br/><br/>I used the website BookingPatagonia to reserve my campsites. While you can do it on your own, you would need to coordinate amongst 3 campsite companies to find reservation spots since the campsites are split between 3 different companies. Booking Patagonia also handled the bus tickets from Puerto Natales to the national park for me. However, if you do choose to book everything on your own, you will be able to save the roughly $50 booking fee that BookingPatagonia charges.
+                    </p>
+                </div>
+                
             </div>
         </div>
     )

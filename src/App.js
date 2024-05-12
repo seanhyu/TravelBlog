@@ -11,6 +11,18 @@ import { Nepal } from "./pages/locations/Nepal"
 import Navbar from './components/navbar/Navbar'
 import Footer from './components/footer/Footer'
 import { Patagonia } from './pages/locations/Patagonia'
+import { UK } from './pages/locations/UK'
+import { Tanzania } from './pages/locations/Tanzania'
+import { NewZealand } from './pages/locations/NZ'
+import { Utah } from './pages/locations/Utah'
+import { Glacier } from './pages/locations/Glacier'
+import { Qatar } from './pages/locations/Qatar'
+import { TMB } from './pages/locations/TMB'
+import { Olympic } from './pages/locations/Olympic'
+import { Arizona } from './pages/locations/Arizona'
+import { Iceland } from './pages/locations/Iceland'
+import { Banff } from './pages/locations/Banff'
+import { Yosemite } from './pages/locations/Yosemite'
 
 function App() {
   return (
@@ -18,7 +30,7 @@ function App() {
     <Navbar />
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path='/destinations' element={<Destinations />} />
+      <Route path='/blog' element={<Destinations />} />
       <Route path="/about" element={<About />} />
       <Route path="/gear" element={<Gear />} />
       <Route path="/finances" element={<Finances />} />
@@ -26,6 +38,18 @@ function App() {
       <Route path="/peru" element={<Peru />} />
       <Route path="/nepal" element={<Nepal />} />
       <Route path='/patagonia' element={<Patagonia/>} />
+      <Route path='/uk' element={<UK/>} />
+      <Route path='/tanzania' element={<Tanzania/>} />
+      <Route path='/nz' element={<NewZealand/>} />
+      <Route path='/utah' element={<Utah/>} />
+      <Route path='/glacier' element={<Glacier/>} />
+      <Route path='/Qatar' element={<Qatar/>} />
+      <Route path='/tmb' element={<TMB/>} />
+      <Route path='/olympic' element={<Olympic/>} />
+      <Route path='/arizona' element={<Arizona/>} />
+      <Route path='/iceland' element={<Iceland/>} />
+      <Route path='/banff' element={<Banff/>} />
+      <Route path='/yosemite' element={<Yosemite/>} />
     </Routes>
     <Footer/>
     </>

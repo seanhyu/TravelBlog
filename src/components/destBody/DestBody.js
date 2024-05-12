@@ -45,12 +45,12 @@ function DestBody() {
                 <h1>North America</h1>
                 <div className='dest-images'>
                     <div className='container-grid'>
-                        <SelectsImg bgImg={Banff} text="Banff"/>
-                        <SelectsImg bgImg={OlympicBeach} text="Washington"/>
-                        <SelectsImg bgImg={Subway} text="Utah"/>
-                        <SelectsImg bgImg={Wave} text="Arizona"/>
-                        <SelectsImg bgImg={GlacierNP} text="Glacier"/>
-                        <SelectsImg bgImg={TunnelView} text="Yosemite"/>
+                        <SelectsImg bgImg={Banff} text="Banff" link="/banff"/>
+                        <SelectsImg bgImg={OlympicBeach} text="Olympic" link="/olympic"/>
+                        <SelectsImg bgImg={Subway} text="Utah" link="/utah"/>
+                        <SelectsImg bgImg={Wave} text="Arizona" link="/arizona"/>
+                        <SelectsImg bgImg={GlacierNP} text="Glacier" link="/glacier"/>
+                        <SelectsImg bgImg={TunnelView} text="Yosemite" link="/yosemite"/>
                     </div>
                 </div>
             </div>
