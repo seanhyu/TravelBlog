@@ -17,7 +17,7 @@ function Navbar() {
         <div name='home' className='navbar'>
             <div className='overlay'></div>
             <div className='logo'>
-                <h2>Wandering Sean </h2>
+                <Link to='/'><h2>Wandering Sean </h2></Link>
             </div>
             <ul className='nav-menu'>
                 <Link to='/'><li>Home</li></Link>

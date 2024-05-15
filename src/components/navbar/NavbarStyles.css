@@ -9,6 +9,9 @@
     position: absolute;
 }
 
+.logo h2{
+    color:#000;
+}
 .navbar-bg {
     background-color: transparent;
 }
