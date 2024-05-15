@@ -27,7 +27,7 @@ function DestBody() {
             <div className='container'>
                 <div className='linebreak'></div>
                 <div className='linebreak'></div>
-                <h4>I have compiled here my itineraries and tips from my trips across the world. All pictures on this site were taken by me, and I've included information on where and how I took these images for each destination so you can witness and capture them yourself. I hope you find the information here helpful!  </h4>
+                <p>I have compiled here my itineraries and tips from my trips across the world. All pictures on this site were taken by me, and I've included information on where and how I took these images for each destination so you can witness and capture them yourself. I hope you find the information here helpful!  </p>
                 <h1>International</h1>
                 <div className='dest-images'>
                     <div className='container-grid'>

@@ -1,5 +1,4 @@
 import React from 'react'
-import {AiOutlineSearch} from 'react-icons/ai'
 import './HeroStyles.css'
 
 import Video from '../../assets/StabilizedVideo.m4v'
@@ -12,15 +11,6 @@ function Hero() {
             </video>
             <div className='content'>
                 <h1>Your Dream Trip Reimagined</h1>
-                <form className='form'>
-                    <div>
-                        <input type="text" placeholder = "Search Destinations"/>
-                    </div>
-                    <div>
-                        <button><AiOutlineSearch className='icon'/>
-                        </button>
-                    </div>
-                </form>
             </div>
         </div>
     )

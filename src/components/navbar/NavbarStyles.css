@@ -13,13 +13,17 @@
     background-color: transparent;
 }
 
-
 .nav-menu {
     display: flex;
+    width: 40%
+}
+
+.nav-icons .social-icons .icon{
+    margin: 1rem;
 }
 
 li {
-    padding: 0 1rem;
+    padding: 0 1.5rem;
     font-size: 1.2rem;
     color: #000;
     cursor: pointer;

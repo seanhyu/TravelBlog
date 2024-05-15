@@ -33,37 +33,3 @@
     padding-bottom: 20px;
 }
 
-.form {
-    display: flex;
-    background-color: #ffffffcc;
-    color: #000;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid #fff;
-    padding: 4px;
-    border-radius: 10px;
-    max-width: 700px;
-    width: 100%; 
-    margin: 0 auto;
-}
-
-.form input[type=text] {
-    background-color: transparent;
-    border: transparent;
-    width: 400px;
-    font-size: 1.2rem;
-    font-family: 'Merriweather', sans-serif;
-}
-
-.form input[type=text]:focus {
-    outline: none;
-}
-
-@media screen and (max-width: 940px) {
-    .form input[type=text] {
-        max-width: 275px;
-    }
-    .hero .content h1 {
-        font-size: 2rem;
-    }
-}

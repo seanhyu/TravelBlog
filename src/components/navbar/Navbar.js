@@ -1,6 +1,4 @@
 import React, {useState} from 'react'
-import {BiSearch} from 'react-icons/bi'
-import {BsPerson} from 'react-icons/bs'
 import {HiOutlineMenuAlt4} from 'react-icons/hi'
 import {FaInstagram} from 'react-icons/fa'
 import {FaYoutube} from 'react-icons/fa'
@@ -29,8 +27,11 @@ function Navbar() {
                 <Link to='/about'><li>About</li></Link>
             </ul>
             <div className='nav-icons'>
-                <BiSearch className='icon' style={{marginRight: "1rem"}}/>
-                <BsPerson className='icon' />
+                <div className='social-icons'>
+                    <FaInstagram className='icon'/>
+                    <FaYoutube className='icon'/>
+                    <FaLinkedin className='icon'/>
+                </div>
             </div>
             <div className='hamburger' onClick={handleNav}>
                 {nav ? <AiOutlineClose className='icon' /> : <HiOutlineMenuAlt4 className='icon' />}
@@ -44,14 +45,10 @@ function Navbar() {
                     <Link to='/about'><li>About Me</li></Link> 
                 </ul>
                 <div className='mobile-menu-buttons'>
-                    <div className='menu-icons'>
-                        <button >Search</button>
-                    </div>
                     <div className='social-icons'>
                         <FaInstagram className='icon'/>
                         <FaYoutube className='icon'/>
                         <FaLinkedin className='icon'/>
-
                     </div>
                 </div>
             </div>
