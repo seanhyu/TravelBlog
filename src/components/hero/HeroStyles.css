@@ -33,3 +33,12 @@
     padding-bottom: 20px;
 }
 
+@media screen and (max-width: 940px) {
+    .hero .content h1 {
+        font-size: 2rem;
+        font-weight: 600;
+        padding-bottom: 20px;
+    }
+    
+}
+
