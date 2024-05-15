@@ -30,3 +30,12 @@
     font-weight: 600;
     z-index: 2;
 }
+
+
+@media screen and (max-width: 940px) {
+    .standard p {
+        font-size: 3rem;
+        font-weight: 400;
+    }
+    
+}
