@@ -40,9 +40,6 @@ li {
     display: none;
 }
 
-.icon {
-    cursor: pointer;
-}
 
 .overlay {
     background-color: rgba(246, 241, 241, 0.7);

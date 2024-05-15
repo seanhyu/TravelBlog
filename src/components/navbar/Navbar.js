@@ -28,9 +28,9 @@ function Navbar() {
             </ul>
             <div className='nav-icons'>
                 <div className='social-icons'>
-                    <FaInstagram className='icon'/>
-                    <FaYoutube className='icon'/>
-                    <FaLinkedin className='icon'/>
+                    <Link to="https://www.instagram.com/seanhyu/?hl=en"><FaInstagram className='icon'/></Link>
+                    <Link to="https://www.youtube.com/channel/UCVLm1eGW0MqHTdIcUP4cKyw"><FaYoutube className='icon'/></Link>
+                    <Link to="https://www.linkedin.com/in/sean-yu-461b37183/"><FaLinkedin className='icon'/></Link>
                 </div>
             </div>
             <div className='hamburger' onClick={handleNav}>
@@ -46,9 +46,9 @@ function Navbar() {
                 </ul>
                 <div className='mobile-menu-buttons'>
                     <div className='social-icons'>
-                        <FaInstagram className='icon'/>
-                        <FaYoutube className='icon'/>
-                        <FaLinkedin className='icon'/>
+                        <Link to="https://www.instagram.com/seanhyu/?hl=en"><FaInstagram className='icon'/></Link>
+                        <Link to="https://www.youtube.com/channel/UCVLm1eGW0MqHTdIcUP4cKyw"><FaYoutube className='icon'/></Link>
+                        <Link to="https://www.linkedin.com/in/sean-yu-461b37183/"><FaLinkedin className='icon'/></Link>
                     </div>
                 </div>
             </div>

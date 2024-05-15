@@ -1,14 +1,12 @@
 import React from 'react'
 import './HeroStyles.css'
 
-import Video from '../../assets/StabilizedVideo.m4v'
+import Towers from '../../assets/patagoniaTowers.jpg'
 
 function Hero() {
     return (
         <div className='hero'>
-            <video autoPlay loop muted id='video'>
-                <source src={Video} type='video/mp4' />
-            </video>
+            <img src={Towers} alt="Towers" />
             <div className='content'>
                 <h1>Your Dream Trip Reimagined</h1>
             </div>
