@@ -63,4 +63,7 @@
     .form input[type=text] {
         max-width: 275px;
     }
+    .hero .content h1 {
+        font-size: 2rem;
+    }
 }

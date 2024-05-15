@@ -36,9 +36,9 @@ function GearContent() {
                     <li>Water bottle: Katadyn BeFree</li>
                     <li>Med Kit: Adventure Medical Kits .5 Medical Kit</li>
                 </div>
-                <h2> </h2>
+                <div className='linebreak'> </div>
                 <hr></hr>
-                <h2> </h2>
+                <div className='linebreak'> </div>
                 <h2>Travel/Camera Gear</h2>
                 <hr></hr>
                 <GearItems title= "Pack: Osprey Farpoint 40" gearImg={OspreyFarpoint} text="The Osprey Farpoint 40 is a 40L travel backpack that uses a similar frame to those found on Osprey's backpacking packs to make carrying loads comfortable. The pack fits within the dimension of carry-on sizes at airports and is a great way to travel without a suitcase. The pack is best paired with a separate daypack for day-excursions." pro1="Large capacity" pro2="Very comfortable" pro3="Open design" con1="Expensive" con2="Lack of storage organization" con3="Few external pockets" />

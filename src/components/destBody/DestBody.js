@@ -25,9 +25,9 @@ function DestBody() {
     return (
         <div name='destinations' className='dest-body'>
             <div className='container'>
-                <h1> </h1>
-                <p1>I have compiled here my itineraries and tips from my trips across the world. All pictures on this site were taken by me, and I've included information on where and how I took these images for each destination so you can witness and capture them yourself. I hope you find the information here helpful!  </p1>
-                
+                <div className='linebreak'></div>
+                <div className='linebreak'></div>
+                <h4>I have compiled here my itineraries and tips from my trips across the world. All pictures on this site were taken by me, and I've included information on where and how I took these images for each destination so you can witness and capture them yourself. I hope you find the information here helpful!  </h4>
                 <h1>International</h1>
                 <div className='dest-images'>
                     <div className='container-grid'>

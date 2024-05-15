@@ -9,7 +9,7 @@ function SelectsImg(props) {
             <Link to={props.link}>
             <img src={props.bgImg} alt = "/" />
             <div className='overlay'>
-                <p>{props.text}</p>
+                <h3>{props.text}</h3>
             </div>
             </Link>
         </div>

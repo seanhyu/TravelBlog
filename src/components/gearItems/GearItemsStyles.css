@@ -2,11 +2,12 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,0.5fr);
-    grid-gap: 0rem;
+    grid-gap: 1rem;
+    padding-bottom: 1rem;
 }
 
 .gear-items img {
-    width: 80%;
+    height: 300px;
     display: flex;
     justify-content: center;
     grid-row: span 2;
@@ -22,6 +23,30 @@
 .gear-grid li {
     padding-top: none;
     font-size: 1rem;
+}
+
+@media screen and (max-width: 740px) {
+    .gear-items p {
+        font-size: 0.7rem;
+    }
+    .gear-items h3 {
+        font-size: 1.5rem;
+    }
+    .gear-grid {
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,0.3fr);
+    }
+    .gear-grid img {
+        grid-column: span 2;
+        grid-row: span 1;
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px
+    }
+
+    .gear-items li {
+        font-size: 0.7rem;
+    }
 }
 
 

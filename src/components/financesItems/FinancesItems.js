@@ -13,15 +13,17 @@ function FinancesItems(props) {
                 </div>
                 <div className='pros'>
                     <h4>Pros</h4>
-                    <li>{props.pro1}</li>
-                    <li>{props.pro2}</li>
-                    <li>{props.pro3}</li>
+                    <p>
+                    <li><p>{props.pro1}</p></li>
+                    <li><p>{props.pro2}</p></li>
+                    <li><p>{props.pro3}</p></li>
+                    </p>
                 </div>
                 <div className='cons'>
                     <h4>Cons</h4>
-                    <li>{props.con1}</li>
-                    <li>{props.con2}</li>
-                    <li>{props.con3}</li>
+                    <li><p>{props.con1}</p></li>
+                    <li><p>{props.con2}</p></li>
+                    <li><p>{props.con3}</p></li>
                 </div>
             </div>
             <hr></hr>
