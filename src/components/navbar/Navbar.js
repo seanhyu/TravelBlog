@@ -1,10 +1,12 @@
 import React, {useState} from 'react'
+import {useEffect} from 'react'
 import {HiMenu} from 'react-icons/hi'
 import {FaInstagram} from 'react-icons/fa'
 import {FaYoutube} from 'react-icons/fa'
 import {FaLinkedin} from 'react-icons/fa'
 
 import {Link} from 'react-router-dom'
+import {useLocation} from 'react-router-dom';
 
 import {AiOutlineClose} from 'react-icons/ai'
 
@@ -12,7 +14,10 @@ import './NavbarStyles.css'
 
 function Navbar() {
     const [nav,setNav] = useState(false);
-    const handleNav = () => setNav(!nav);
+    const handleNav = (() => {setNav(!nav);})
+    let location = useLocation(); 
+    useEffect (() => {setNav(false);},[location])
+
     return (
         <div name='home' className='navbar'>
             <div className='overlay'></div>
@@ -33,6 +38,7 @@ function Navbar() {
                     <Link to="https://www.linkedin.com/in/sean-yu-461b37183/"><FaLinkedin className='icon'/></Link>
                 </div>
             </div>
+            
             <div className='hamburger' onClick={handleNav}>
                 {nav ? <AiOutlineClose className='icon' /> : <HiMenu className='icon' />}
             </div>
