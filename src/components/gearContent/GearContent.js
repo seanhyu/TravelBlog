@@ -25,16 +25,16 @@ function GearContent() {
                 <GearItems title="Tent: Big Agnes Copper Spur HV UL3" gearImg={BigAgnes} text="The Big Agnes Copper Spur HV UL3 is a 3-person backpacking tent that scores well in both weight and space. The tent weighs just under 4 pounds and is reasonably strong given the thin materials used. I spent multiple nights sleeping in the tent while in Patagonia, enduring torrential rainfall and high winds, and the tent had no problems dealing with the conditions. I recommend getting a tent with 1 extra person of capacity (3-person tent for 2 people)." pro1="Lightweight and packable" pro2="Easy assembly" pro3="High tent ceiling" con1="Expensive" con2="Can only fit 2 people comfortably" con3="Thin materials must be handled with care" />
                 <h3>Other gear:</h3>
                 <div className='other-gear'>
-                    <li><p>Stove: BRS3000T</p></li>
-                    <li><p>Pot: Toaks Titanium 750mL Pot</p></li>
-                    <li><p>Pack cover: Osprey Ultralight Raincover</p></li>
-                    <li><p>Rain Jacket: Arc'Teryx Beta LT</p></li>
-                    <li><p>Down Jacket: Mountain Hardware Ghost Whisperer 2</p></li>
-                    <li><p>Fleece Jacket: Patagonia Better Sweater</p></li>
-                    <li><p>Pants: prAna Stretch Zion </p></li>
-                    <li><p>Shoes: Salamon SpeedCross 6</p></li>
-                    <li><p>Water bottle: Katadyn BeFree</p></li>
-                    <li><p>Med Kit: Adventure Medical Kits .5 Medical Kit</p></li>
+                    <li>Stove: BRS3000T</li>
+                    <li>Pot: Toaks Titanium 750mL Pot</li>
+                    <li>Pack cover: Osprey Ultralight Raincover</li>
+                    <li>Rain Jacket: Arc'Teryx Beta LT</li>
+                    <li>Down Jacket: Mountain Hardware Ghost Whisperer 2</li>
+                    <li>Fleece Jacket: Patagonia Better Sweater</li>
+                    <li>Pants: prAna Stretch Zion</li>
+                    <li>Shoes: Salamon SpeedCross 6</li>
+                    <li>Water bottle: Katadyn BeFree</li>
+                    <li>Med Kit: Adventure Medical Kits .5 Medical Kit</li>
                 </div>
                 <div className='linebreak'> </div>
                 <hr></hr>
@@ -47,10 +47,10 @@ function GearContent() {
                 <h3>Other gear:</h3>
                 <div className='other-gear'>
                     <p>
-                    <li><p>Tripod: Sirui Carbon Fiber Travel Tripod</p></li>
-                    <li><p>International Outlet Adapter: Insignia All-In-One Travel Adapter</p></li>
-                    <li><p>Power bank: Anker 20,000 mAh Power Bank</p></li>
-                    <li><p>Action Camera: GoPro Hero 8</p></li>
+                    <li>Tripod: Sirui Carbon Fiber Travel Tripod</li>
+                    <li>International Outlet Adapter: Insignia All-In-One Travel Adapter</li>
+                    <li>Power bank: Anker 20,000 mAh Power Bank</li>
+                    <li>Action Camera: GoPro Hero 8</li>
                     </p>
                 </div>
                 <div className='linebreak' />

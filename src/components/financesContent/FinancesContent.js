@@ -23,21 +23,21 @@ function FinancesContent() {
                 <FinancesItems title="Best for Foodies: American Express Gold" financesImg={Amex} text="The Amex Gold card is great for those whose highest spending category is food. The card has a $250 annual fee, but comes with $120 of Uber/UberEats credit and $120 in GrubHub/Shake Shack credit, which if used fully results in a net cost of only $10. The card earns 4X on food and groceries, 3X on travel, and 1X on all other purchases. The points can be transferred to various transfer partners, or redeemed for only 0.67 cents per point in cash. Those who can use the credits should heavily consider getting this card." pro1="Large sign-up bonus (search for targeted 90,000 point offer using browser incognito mode)" pro2="Great earnings for food and groceries" pro3="Good transfer partners" con1="One sign-up bonus per lifetime" con2="Credits come in $10 increments each month that expire every month" con3="Must get this card before the Amex Platinum to get the sign-up bonus" />
                 <h3>Other cards I have:</h3>
                 <div className='other-cards'>
-                    <li><p>Chase Sapphire Preferred</p></li>
-                    <li><p>Chase Freedom Unlimited</p></li>
-                    <li><p>Alaska Airlines Visa Credit Card</p></li>
-                    <li><p>Citi Custom Cash</p></li>
-                    <li><p>Discover It</p></li>
+                    <li>Chase Sapphire Preferred</li>
+                    <li>Chase Freedom Unlimited</li>
+                    <li>Alaska Airlines Visa Credit Card</li>
+                    <li>Citi Custom Cash</li>
+                    <li>Discover It</li>
                 </div>
                 <hr></hr>
                 <h3>Cards I plan on getting (with reason for getting it): </h3>
                 <div className='other-cards'>
-                    <li><p>World of Hyatt Card (Hyatt has a great rewards program)</p></li>
-                    <li><p>American Express Platinum (Get sign-up bonus, then cancel)</p></li>
-                    <li><p>Citi Premier (To redeem the points from my Citi Custom Cash)</p></li>
-                    <li><p>United Explorer (Get sign-up bonus, then cancel)</p></li>
-                    <li><p>Chase Freedom Flex (Sign-up bonus, bonus earning categories)</p></li>
-                    <li><p>AAdvantage Aviator Red World Elite Mastercard (Get sign-up bonus, then cancel)</p></li>
+                    <li>World of Hyatt Card (Hyatt has a great rewards program)</li>
+                    <li>American Express Platinum (Get sign-up bonus, then cancel)</li>
+                    <li>Citi Premier (To redeem the points from my Citi Custom Cash)</li>
+                    <li>United Explorer (Get sign-up bonus, then cancel)</li>
+                    <li>Chase Freedom Flex (Sign-up bonus, bonus earning categories)</li>
+                    <li>AAdvantage Aviator Red World Elite Mastercard (Get sign-up bonus, then cancel)</li>
                 </div>
                 <h2>Example Redemptions</h2>
                 <hr></hr>
