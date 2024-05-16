@@ -48,16 +48,16 @@
     }
 
     .image-text p {
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
 
     .all-text p{
         text-align: center;
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
 
     .bullets li {
-        font-size: 0.7rem;
+        font-size: 1rem;
 
     }
 }
