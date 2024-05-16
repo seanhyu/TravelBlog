@@ -25,21 +25,18 @@
     padding-top: 0rem;
 }
 
-.gear-grid li {
-    font-size: 1rem;
-}
 
 @media screen and (max-width: 740px) {
     .finances-grid {
-        grid-template-columns: repeat(2,1fr);
-        gap: 1rem;
+        display: block;
     }
     .finances-items img {
-        grid-column: span 2;
         margin-left: auto;
         margin-right: auto;
+        padding-bottom: 1rem;
     }
-    .finances-items h3 {
-        font-size: 1.2rem;
+
+    .finances-items h4 {
+        padding-top: 1rem;
     }
 }

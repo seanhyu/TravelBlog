@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {HiOutlineMenuAlt4} from 'react-icons/hi'
+import {HiMenu} from 'react-icons/hi'
 import {FaInstagram} from 'react-icons/fa'
 import {FaYoutube} from 'react-icons/fa'
 import {FaLinkedin} from 'react-icons/fa'
@@ -34,7 +34,7 @@ function Navbar() {
                 </div>
             </div>
             <div className='hamburger' onClick={handleNav}>
-                {nav ? <AiOutlineClose className='icon' /> : <HiOutlineMenuAlt4 className='icon' />}
+                {nav ? <AiOutlineClose className='icon' /> : <HiMenu className='icon' />}
             </div>
             <div className={nav ? 'mobile-menu active' : "mobile-menu"}>
                 <ul className='mobile-nav'>

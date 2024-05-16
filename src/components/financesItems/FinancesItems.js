@@ -13,11 +13,9 @@ function FinancesItems(props) {
                 </div>
                 <div className='pros'>
                     <h4>Pros</h4>
-                    <p>
                     <li><p>{props.pro1}</p></li>
                     <li><p>{props.pro2}</p></li>
                     <li><p>{props.pro3}</p></li>
-                    </p>
                 </div>
                 <div className='cons'>
                     <h4>Cons</h4>
