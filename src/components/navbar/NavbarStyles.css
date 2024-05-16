@@ -52,6 +52,9 @@ li {
 }
 
  @media screen and (max-width: 940px) {
+    .logo h2{
+        font-size: 1.5rem;
+    }
     .nav-menu {
         display: none;
     }
