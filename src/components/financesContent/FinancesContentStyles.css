@@ -45,18 +45,4 @@
         height: 100%;
     }
 
-    .finances-content h2 {
-        font-size: 2rem;
-    }
-
-    .finances-content h3 {
-        font-size: 1.2rem;
-    }
-    .finances-content h4 {
-        font-size: 1rem;
-        font-weight: bold;
-    }
-    .finances-content p {
-        font-size: 1rem;
-    }
 }

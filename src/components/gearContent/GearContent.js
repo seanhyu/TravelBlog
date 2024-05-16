@@ -25,16 +25,16 @@ function GearContent() {
                 <GearItems title="Tent: Big Agnes Copper Spur HV UL3" gearImg={BigAgnes} text="The Big Agnes Copper Spur HV UL3 is a 3-person backpacking tent that scores well in both weight and space. The tent weighs just under 4 pounds and is reasonably strong given the thin materials used. I spent multiple nights sleeping in the tent while in Patagonia, enduring torrential rainfall and high winds, and the tent had no problems dealing with the conditions. I recommend getting a tent with 1 extra person of capacity (3-person tent for 2 people)." pro1="Lightweight and packable" pro2="Easy assembly" pro3="High tent ceiling" con1="Expensive" con2="Can only fit 2 people comfortably" con3="Thin materials must be handled with care" />
                 <h3>Other gear:</h3>
                 <div className='other-gear'>
-                    <li>Stove: BRS3000T</li>
-                    <li>Pot: Toaks Titanium 750mL Pot</li>
-                    <li>Pack cover: Osprey Ultralight Raincover</li>
-                    <li>Rain Jacket: Arc'Teryx Beta LT</li>
-                    <li>Down Jacket: Mountain Hardware Ghost Whisperer 2</li>
-                    <li>Fleece Jacket: Patagonia Better Sweater</li>
-                    <li>Pants: prAna Stretch Zion </li>
-                    <li>Shoes: Salamon SpeedCross 6</li>
-                    <li>Water bottle: Katadyn BeFree</li>
-                    <li>Med Kit: Adventure Medical Kits .5 Medical Kit</li>
+                    <li><p>Stove: BRS3000T</p></li>
+                    <li><p>Pot: Toaks Titanium 750mL Pot</p></li>
+                    <li><p>Pack cover: Osprey Ultralight Raincover</p></li>
+                    <li><p>Rain Jacket: Arc'Teryx Beta LT</p></li>
+                    <li><p>Down Jacket: Mountain Hardware Ghost Whisperer 2</p></li>
+                    <li><p>Fleece Jacket: Patagonia Better Sweater</p></li>
+                    <li><p>Pants: prAna Stretch Zion </p></li>
+                    <li><p>Shoes: Salamon SpeedCross 6</p></li>
+                    <li><p>Water bottle: Katadyn BeFree</p></li>
+                    <li><p>Med Kit: Adventure Medical Kits .5 Medical Kit</p></li>
                 </div>
                 <div className='linebreak'> </div>
                 <hr></hr>
@@ -46,13 +46,15 @@ function GearContent() {
                 <GearItems title="Camera: Sony A7III" gearImg={Sony} text="The Sony A7III has been a workhorse for me! The image quality has been great, and the battery life has been phenomenal. The weatherproofing of the camera has stood the test of time, enduring multiple rainy days in the UK and extreme cold in Iceland. I pair the camera with the Tamron 28-200mL f2.8-f5.6 lens, which provides great flexibility for composing shots." pro1="Great image quality" pro2="Weatherproof" pro3="Smaller than a DSLR" con1="Expensive" con2="Can be hard to take on treks" con3="Weight penalty is significant" />
                 <h3>Other gear:</h3>
                 <div className='other-gear'>
-                    <li>Tripod: Sirui Carbon Fiber Travel Tripod</li>
-                    <li>International Outlet Adapter: Insignia All-In-One Travel Adapter</li>
-                    <li>Power bank: Anker 20,000 mAh Power Bank</li>
-                    <li>Action Camera: GoPro Hero 8</li>
-                    
+                    <p>
+                    <li><p>Tripod: Sirui Carbon Fiber Travel Tripod</p></li>
+                    <li><p>International Outlet Adapter: Insignia All-In-One Travel Adapter</p></li>
+                    <li><p>Power bank: Anker 20,000 mAh Power Bank</p></li>
+                    <li><p>Action Camera: GoPro Hero 8</p></li>
+                    </p>
                 </div>
-                <h2> </h2>
+                <div className='linebreak' />
+                <div className='linebreak' />
             </div>
         </div>
     )
