@@ -23,6 +23,7 @@ import { Arizona } from './pages/locations/Arizona'
 import { Iceland } from './pages/locations/Iceland'
 import { Banff } from './pages/locations/Banff'
 import { Yosemite } from './pages/locations/Yosemite'
+import { Switzerland } from './pages/locations/Switzerland'
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
       <Route path='/iceland' element={<Iceland/>} />
       <Route path='/banff' element={<Banff/>} />
       <Route path='/yosemite' element={<Yosemite/>} />
+      <Route path='/switzerland' element={<Switzerland/>} />
     </Routes>
     <Footer/>
     </>
