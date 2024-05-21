@@ -24,6 +24,8 @@ import { Iceland } from './pages/locations/Iceland'
 import { Banff } from './pages/locations/Banff'
 import { Yosemite } from './pages/locations/Yosemite'
 import { Switzerland } from './pages/locations/Switzerland'
+import { SolarEclipse } from './pages/locations/SolarEclipse'
+import { NorthernLights } from './pages/locations/NorthernLights'
 
 function App() {
   return (
@@ -52,6 +54,8 @@ function App() {
       <Route path='/banff' element={<Banff/>} />
       <Route path='/yosemite' element={<Yosemite/>} />
       <Route path='/switzerland' element={<Switzerland/>} />
+      <Route path='/solar-eclipse' element={<SolarEclipse/>}/>
+      <Route path='/northern-lights' element={<NorthernLights/>}/>
     </Routes>
     <Footer/>
     </>
