@@ -16,6 +16,8 @@ import TunnelView from '../../assets/TunnelView.jpg'
 import UK from '../../assets/snowdonia.jpg'
 import Kilimanjaro from '../../assets/kilimanjaro.jpg'
 import Wave from '../../assets/wave.jpg'
+import NorthernLights from '../../assets/northernLights.jpg'
+import SolarEclipse from '../../assets/diamondRing.jpg'
 
 
 import SelectsImg from '../selectsImgs/SelectsImgs'
@@ -51,6 +53,13 @@ function DestBody() {
                         <SelectsImg bgImg={OlympicBeach} text="Olympic" link="/olympic"/>
                         <SelectsImg bgImg={Subway} text="Utah" link="/utah"/>
                         <SelectsImg bgImg={TunnelView} text="Yosemite" link="/yosemite"/>
+                    </div>
+                </div>
+                <h1>Bonus trips</h1>
+                <div className='dest-images'>
+                    <div className='container-grid-2'>
+                        <SelectsImg bgImg={NorthernLights} text="Northern Lights" link="/northern-lights"/>
+                        <SelectsImg bgImg={SolarEclipse} text="Solar Eclipses" link="/solar-eclipse"/>
                     </div>
                 </div>
             </div>
