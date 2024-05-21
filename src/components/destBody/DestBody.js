@@ -31,25 +31,25 @@ function DestBody() {
                 <h1>International</h1>
                 <div className='dest-images'>
                     <div className='container-grid'>
-                        <SelectsImg bgImg={Ausangate} text="Peru" link="/peru"/>
-                        <SelectsImg bgImg={Everest} text="Nepal" link="/nepal"/>
-                        <SelectsImg bgImg={Patagonia} text="Patagonia" link="/patagonia"/>
-                        <SelectsImg bgImg={Tongariro} text="New Zealand" link="/nz"/>
                         <SelectsImg bgImg={Reynisfjara} text="Iceland" link="/iceland" />
+                        <SelectsImg bgImg={Everest} text="Nepal" link="/nepal"/>
+                        <SelectsImg bgImg={Tongariro} text="New Zealand" link="/nz"/>
+                        <SelectsImg bgImg={Patagonia} text="Patagonia" link="/patagonia"/>
+                        <SelectsImg bgImg={Ausangate} text="Peru" link="/peru"/>
+                        <SelectsImg bgImg={Doha} text="Qatar" link="/qatar"/>
                         <SelectsImg bgImg={Lauterbrunnen} text="Switzerland" link="/switzerland"/>
                         <SelectsImg bgImg={Kilimanjaro} text="Tanzania" link="/tanzania"/>
-                        <SelectsImg bgImg={Doha} text="Qatar" link="/qatar"/>
                         <SelectsImg bgImg={UK} text="United Kingdom" link="/uk"/>
                     </div>
                 </div>
                 <h1>North America</h1>
                 <div className='dest-images'>
                     <div className='container-grid'>
+                        <SelectsImg bgImg={Wave} text="Arizona" link="/arizona"/>
                         <SelectsImg bgImg={Banff} text="Banff" link="/banff"/>
+                        <SelectsImg bgImg={GlacierNP} text="Glacier" link="/glacier"/>
                         <SelectsImg bgImg={OlympicBeach} text="Olympic" link="/olympic"/>
                         <SelectsImg bgImg={Subway} text="Utah" link="/utah"/>
-                        <SelectsImg bgImg={Wave} text="Arizona" link="/arizona"/>
-                        <SelectsImg bgImg={GlacierNP} text="Glacier" link="/glacier"/>
                         <SelectsImg bgImg={TunnelView} text="Yosemite" link="/yosemite"/>
                     </div>
                 </div>

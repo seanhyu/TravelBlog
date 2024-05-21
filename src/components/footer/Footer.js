@@ -23,7 +23,7 @@ function Footer() {
                 <div className='bottom'>
                     <ul>
                         <Link to='/' ><li>Home</li></Link>
-                        <Link to='/blog' ><li>Blog</li></Link>
+                        <Link to='/blog' ><li>Trips</li></Link>
                         <Link to='/gear' ><li>Gear</li></Link>
                         <Link to='/finances' ><li>Finances</li></Link>
                         <Link to='/contact' ><li>Contact</li></Link>

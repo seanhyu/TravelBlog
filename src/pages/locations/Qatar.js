@@ -42,6 +42,7 @@ export function Qatar() {
                 <div className='bullets'>
                     <li>Desert tours: I did one while at Qatar and it was very fun! The sand dunes in Qatar are massive and quite the sight to see, and you can also go sand boarding which I found really fun!</li>
                 </div>
+                <div className='linebreak'/>
             </div>
         </div>
     )
