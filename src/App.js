@@ -17,7 +17,6 @@ import { NewZealand } from './pages/locations/NZ'
 import { Utah } from './pages/locations/Utah'
 import { Glacier } from './pages/locations/Glacier'
 import { Qatar } from './pages/locations/Qatar'
-import { TMB } from './pages/locations/TMB'
 import { Olympic } from './pages/locations/Olympic'
 import { Arizona } from './pages/locations/Arizona'
 import { Iceland } from './pages/locations/Iceland'
@@ -47,7 +46,6 @@ function App() {
       <Route path='/utah' element={<Utah/>} />
       <Route path='/glacier' element={<Glacier/>} />
       <Route path='/Qatar' element={<Qatar/>} />
-      <Route path='/tmb' element={<TMB/>} />
       <Route path='/olympic' element={<Olympic/>} />
       <Route path='/arizona' element={<Arizona/>} />
       <Route path='/iceland' element={<Iceland/>} />
