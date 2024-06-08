@@ -38,6 +38,9 @@
     }
     .dest-images .container-grid-2 {
         grid-template-columns: repeat(1,1fr);
+        padding-left: 0rem;
+        padding-right: 0rem;
+        grid-gap: 1rem;
     }
    
 }
