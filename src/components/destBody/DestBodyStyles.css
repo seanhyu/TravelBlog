@@ -33,7 +33,10 @@
 }
 
 @media screen and (max-width: 740px) {
-    .dest-images {
+    .dest-images .container-grid {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .dest-images .container-grid-2 {
         grid-template-columns: repeat(1,1fr);
     }
    
