@@ -4,7 +4,6 @@ import "./LocationsStyles.css"
 
 import CanadaEclipse from '../../assets/solarEclipse.jpg'
 import Beads from '../../assets/beads.jpg'
-import DiamondRing from '../../assets/diamondRing.jpg'
 
 export function SolarEclipse () {
     return (
