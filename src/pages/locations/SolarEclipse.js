@@ -11,7 +11,7 @@ export function SolarEclipse () {
             <Standard bgImg={Beads} text="Solar Eclipses" />
             <div className='container'>
                 <div className='all-text'>
-                    <p>Witnessing a total solar eclipse is truly a once-in-a-lifetime experience. To see the sun blocked by the moon, with its corona shining it, is such a surreal and magical moment. If you ever have the chance to witness a total solar eclipse, you should absolutely go out of your way to make it to the path of totality.</p>
+                    <p>Witnessing a total solar eclipse is truly a once-in-a-lifetime experience. To see the sun blocked by the moon, with its corona shining around it, is such a surreal and magical moment. If you ever have the chance to witness a total solar eclipse, you should absolutely go out of your way to make it to the path of totality.</p>
                 </div>
                 <h3>Total vs Partial Solar Eclipse</h3>
                 <div className='image-text'>
@@ -26,8 +26,8 @@ export function SolarEclipse () {
                 </div>
                 <h3>Photographing Totality</h3>
                 <div className='all-text'>
-                    <p>If you are interested in photographing the moment of totality, you will need at least a 200mm lens, and preferably even higher. My photos here were taken with a 200mm lens, and while they do show an accurate depiction of what totality looks like, they are relatively lower quality because I had to crop into the image. 
-                        <br/><br/>Be sure to set your camera's focus manually since auto-focus will not be able to properly focus on the moon and Sun. I also recommend using bracket-mode to capture a large range of exposures since it can be difficult to expose the corona properly with a single shot. This also removes a degree of human error, which is important since totality only lasts a few minutes and you need to save time to actually enjoy the eclipse with your own eyes!</p>
+                    <p>If you are interested in photographing the moment of totality, you will need at least a 200mm lens, and preferably even longer. My photos here were taken with a 200mm lens, and while they do show an accurate depiction of what totality looks like, they are relatively lower quality because I had to crop into the image. 
+                        <br/><br/>Be sure to set your camera's focus manually since auto-focus will not be able to properly focus on the moon and sun. I also recommend using bracket-mode to capture a wide range of exposures since it can be difficult to expose the corona properly with a single shot. This also reduces human error, which is important since totality only lasts a few minutes and you need to save time to actually enjoy the eclipse with your own eyes!</p>
                 </div>
             </div>
         </div>
