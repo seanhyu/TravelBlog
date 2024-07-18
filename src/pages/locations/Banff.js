@@ -2,11 +2,13 @@ import React from 'react'
 import Standard from '../../components/standard/Standard'
 import "./LocationsStyles.css"
 
+// Import images
 import Moraine from '../../assets/banff.jpg'
 import JohnstonLake from '../../assets/johnstonLake.jpeg'
 import LakeLouise from '../../assets/lakeLouise.jpeg'
 import PeytoLake from '../../assets/peytoLake.jpeg'
 
+// Displays the Banff page
 export function Banff () {
     return (
         <div>

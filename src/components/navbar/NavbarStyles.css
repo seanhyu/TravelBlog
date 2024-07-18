@@ -1,3 +1,4 @@
+/* Style adjustments for the navigation bar on desktops */
 .navbar {
     width: 100%;
     height: 80px;
@@ -51,6 +52,7 @@ li {
     z-index: -1;
 }
 
+/* Styles adjustments for the navigation menu on mobile displays */
  @media screen and (max-width: 940px) {
     .logo h2{
         font-size: 2rem;

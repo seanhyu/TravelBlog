@@ -1,3 +1,5 @@
+/* Style adjustments for the credit card description items */
+
 .finances-grid {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -30,6 +32,7 @@
 }
 
 
+/* Additional adjustments for mobile screens*/
 @media screen and (max-width: 740px) {
     .finances-grid {
         display: block;

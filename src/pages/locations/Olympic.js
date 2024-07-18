@@ -2,11 +2,13 @@ import React from 'react'
 import Standard from '../../components/standard/Standard'
 import "./LocationsStyles.css"
 
+// Import images
 import SecondBeach from '../../assets/olympic.jpg'
 import Rainforest from '../../assets/rainforest.jpg'
 import RubyBeach from '../../assets/rubyBeach.jpg'
 import StormKing from '../../assets/stormKing.jpg'
 
+// Displays the Olympic page
 export function Olympic() {
     return (
         <div>

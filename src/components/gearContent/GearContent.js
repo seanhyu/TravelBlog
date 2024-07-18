@@ -2,6 +2,7 @@ import React from 'react'
 import './GearContentStyles.css'
 import GearItems from '../gearItems/GearItems'
 
+// import images
 import OspreyExos from '../../assets/ospreyExos58.jpeg'
 import UGQ from '../../assets/ugqBandit.jpeg'
 import Thermarest from '../../assets/thermarest.jpeg'
@@ -10,7 +11,7 @@ import DJI from '../../assets/djiMini2.jpeg'
 import Sony from '../../assets/sonya7iii.jpeg'
 import BigAgnes from '../../assets/bigAgnes.jpeg'
 
-
+// Displays the gear page content
 function GearContent() {
     return (
         <div className='gear-content'>

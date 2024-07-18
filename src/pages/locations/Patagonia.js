@@ -2,10 +2,12 @@ import React from 'react'
 import Standard from '../../components/standard/Standard'
 import "./LocationsStyles.css"
 
+// Import images
 import Lake from '../../assets/patagoniaLake.jpg'
 import Towers from '../../assets/patagoniaTowers.jpg'
 import Glacier from '../../assets/glacierGrey.jpg'
 
+// Displays the Patagonia page
 export function Patagonia() {
     return (
         <div>

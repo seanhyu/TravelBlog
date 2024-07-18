@@ -2,6 +2,7 @@ import React from "react"
 
 import './GearItemsStyles.css'
 
+// displays individual gear item text and image blocks
 function GearItems(props) {
     return (
         <div className='gear-items'>

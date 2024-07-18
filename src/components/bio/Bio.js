@@ -1,11 +1,13 @@
 import React from 'react'
 import './BioStyles.css'
 
+// import portrait image
 import Portrait from '../../assets/portrait.jpg'
 
+// bio content on the home page
 function Bio() {
     return (
-        <div className='bio'>
+        <div className='bio'> 
             <div className='container'>
                 <div className = 'bio-container'>
                     <img className = 'img-span' src={Portrait} alt='Sean' />

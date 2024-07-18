@@ -2,10 +2,12 @@ import React from 'react'
 import Standard from '../../components/standard/Standard'
 import "./LocationsStyles.css"
 
+// Import images
 import Ausangate2 from '../../assets/ausangate2.jpg'
 import Ausangate from '../../assets/Ausangate.jpg'
 import MachuPicchu from '../../assets/machuPicchu.jpg'
 
+// Displays the Peru page
 export function Peru () {
     return (
         <div>

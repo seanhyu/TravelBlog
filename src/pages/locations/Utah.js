@@ -2,8 +2,10 @@ import React from 'react'
 import Standard from '../../components/standard/Standard'
 import "./LocationsStyles.css"
 
+// Import images
 import Subway from '../../assets/subway.jpg'
 
+// Displays the Utah page
 export function Utah() {
     return (
         <div>

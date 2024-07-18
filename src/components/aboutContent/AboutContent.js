@@ -1,6 +1,8 @@
 import React from 'react'
 import './AboutContentStyles.css'
 
+// About page content
+
 function AboutContent() {
     return (
         <div className='about-content'>

@@ -1,8 +1,10 @@
 import React from 'react'
 import './HeroStyles.css'
 
+// import image
 import Towers from '../../assets/patagoniaTowers.jpg'
 
+// Displays the background image of the home page
 function Hero() {
     return (
         <div className='hero'>

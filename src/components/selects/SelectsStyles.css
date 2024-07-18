@@ -1,3 +1,4 @@
+/* Styles adjustments for the image grid on the home page */
 .selects h1{
     position: flex;
     text-align: center;
@@ -14,6 +15,7 @@
     grid-gap: 1rem;
 }
 
+/* Additional adjustments for mobile screens */
 @media screen and (max-width: 740px) {
     .selects .container {
         grid-template-columns: repeat(1,1fr);

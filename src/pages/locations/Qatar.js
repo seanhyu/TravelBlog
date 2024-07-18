@@ -2,10 +2,12 @@ import React from 'react'
 import Standard from '../../components/standard/Standard'
 import "./LocationsStyles.css"
 
+// Import images
 import Dessert from '../../assets/qatarDessert.jpg'
 import Souq from '../../assets/souqWaquif.jpg'
 import Canal from '../../assets/doha.jpg'
 
+// Displays the Qatar page
 export function Qatar() {
     return (
         <div>

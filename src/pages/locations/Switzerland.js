@@ -2,10 +2,12 @@ import React from 'react'
 import Standard from '../../components/standard/Standard'
 import "./LocationsStyles.css"
 
+// Import images
 import Lauterbrunnen from '../../assets/lauterbrunnen.jpg'
 import Chapel from '../../assets/chapel.jpg'
 import MurrenP from '../../assets/murrenPortrait.jpg'
 
+// Displays the Switzerland page
 export function Switzerland() {
     return (
         <div>

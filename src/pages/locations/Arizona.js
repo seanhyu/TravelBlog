@@ -2,8 +2,10 @@ import React from 'react'
 import Standard from '../../components/standard/Standard'
 import "./LocationsStyles.css"
 
+// Import images
 import Wave from '../../assets/wave.jpg'
 
+// Displays the Arizona page
 export function Arizona () {
     return (
         <div>

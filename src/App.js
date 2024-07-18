@@ -1,4 +1,7 @@
 import React from 'react'
+
+//import all relevant functions
+
 import { Route, Routes} from "react-router-dom"
 import { Home } from "./pages/Home"
 import { Destinations } from "./pages/Destinations"
@@ -26,8 +29,10 @@ import { Switzerland } from './pages/locations/Switzerland'
 import { SolarEclipse } from './pages/locations/SolarEclipse'
 import { NorthernLights } from './pages/locations/NorthernLights'
 
+
 function App() {
   return (
+    // Assigns link route paths to functions
     <>
     <Navbar />
     <Routes>

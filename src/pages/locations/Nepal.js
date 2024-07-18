@@ -2,11 +2,13 @@ import React from 'react'
 import Standard from '../../components/standard/Standard'
 import "./LocationsStyles.css"
 
+// Import images
 import Everest from '../../assets/EBC.jpg'
 import EverestSunset from '../../assets/everestSunset.jpg'
 import RenjoLa from '../../assets/renjola.jpg'
 import Gokyo from '../../assets/gokyo.jpg'
 
+// Displays the Nepal page
 export function Nepal () {
     return (
         <div>

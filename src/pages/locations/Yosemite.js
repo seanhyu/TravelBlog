@@ -2,9 +2,11 @@ import React from 'react'
 import Standard from '../../components/standard/Standard'
 import "./LocationsStyles.css"
 
+// Import images
 import TunnelView from '../../assets/TunnelView.jpg'
 import HalfDome from '../../assets/halfDome.jpg'
 
+// Displays the Yosemite page
 export function Yosemite () {
     return (
         <div>

@@ -2,6 +2,7 @@ import React from 'react'
 import './FinancesContentStyles.css'
 import FinancesItems from '../financesItems/FinancesItems'
 
+// import relevant images
 import VentureX from '../../assets/VentureX.jpeg'
 import Bilt from '../../assets/bilt.png'
 import Amex from '../../assets/amexGold.jpeg'
@@ -10,6 +11,7 @@ import Emirates from '../../assets/emirates.jpg'
 import Swiss from '../../assets/swiss.jpg'
 import Singapore from '../../assets/singapore.jpeg'
 
+// displays content for credit card and other finances tips
 function FinancesContent() {
     return (
         <div className='finances-content'>

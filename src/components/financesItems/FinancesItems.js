@@ -2,6 +2,7 @@ import React from "react"
 
 import './FinancesItemsStyles.css'
 
+// Displays individual credit card descriptions
 function FinancesItems(props) {
     return (
         <div className='finances-items'>

@@ -2,10 +2,12 @@ import React from 'react'
 import Standard from '../../components/standard/Standard'
 import "./LocationsStyles.css"
 
+// Import images
 import Tongariro from '../../assets/tongariro.jpg'
 import EmeraldLake from '../../assets/emeraldLake.jpg'
 import GlowWorm from '../../assets/glowWorm.jpeg'
 
+// Displays the New Zealand page
 export function NewZealand() {
     return (
         <div>

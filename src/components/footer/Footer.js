@@ -2,12 +2,12 @@ import React from 'react'
 import './FooterStyles.css'
 import {Link} from 'react-router-dom'
 
-
+// import icons for social media
 import {FaInstagram} from 'react-icons/fa'
 import {FaYoutube} from 'react-icons/fa'
 import {FaLinkedin} from 'react-icons/fa'
 
-
+// displays the footer at the bottom of every page
 function Footer() {
     return (
         <div className='footer'>

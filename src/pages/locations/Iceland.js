@@ -2,11 +2,14 @@ import React from 'react'
 import Standard from '../../components/standard/Standard'
 import "./LocationsStyles.css"
 
+// Import images
 import MossCanyon from '../../assets/mossCanyon.jpg'
 import Vestrahorn from '../../assets/vestrahorn.jpg'
 import DiamondBeach from '../../assets/diamondBeach.jpg'
 import Eruption from '../../assets/eruptions.jpg'
 
+
+// Displays the Iceland page
 export function Iceland () {
     return (
         <div>

@@ -2,11 +2,13 @@ import React from 'react'
 import Standard from '../../components/standard/Standard'
 import "./LocationsStyles.css"
 
+// Import images
 import Highline from '../../assets/highline.jpg'
 import Bear from '../../assets/bear.jpg'
 import Grinell from '../../assets/grinellGlacier.jpg'
 import CrackerLake from '../../assets/crackerLake.jpg'
 
+// Displays the Glacier NP page
 export function Glacier() {
     return (
         <div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import './SelectsStyles.css'
 
+// Import images 
 import Reynisfjara from '../../assets/reynisfjara.jpg'
 import Ausangate from '../../assets/Ausangate.jpg'
 import Tongariro from '../../assets/tongariro.jpg'
@@ -8,10 +9,10 @@ import Everest from '../../assets/everest.jpg'
 import Patagonia from '../../assets/glacierGrey.jpg'
 import Kilimanjaro from '../../assets/kilimanjaro.jpg'
 
-
+// Used to display individual images in the correct format
 import SelectsImg from '../selectsImgs/SelectsImgs'
 
-
+// Displays the image grid on the home page
 function Selects() {
     return (
         <div name='destinations' className='selects'>

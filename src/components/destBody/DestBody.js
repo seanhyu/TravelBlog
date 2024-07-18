@@ -1,6 +1,7 @@
 import React from 'react'
 import './DestBodyStyles.css'
 
+// import images for the image grid
 import Reynisfjara from '../../assets/reynisfjara.jpg'
 import Ausangate from '../../assets/Ausangate.jpg'
 import Lauterbrunnen from '../../assets/lauterbrunnen.jpg'
@@ -19,10 +20,10 @@ import Wave from '../../assets/wave.jpg'
 import NorthernLights from '../../assets/northernLights.jpg'
 import SolarEclipse from '../../assets/diamondRing.jpg'
 
-
+// imports SelectsImg function which displays the images with the text and the link
 import SelectsImg from '../selectsImgs/SelectsImgs'
 
-
+// Displays the destinations image grid and the corresponding text on the blog page
 function DestBody() {
     return (
         <div name='destinations' className='dest-body'>

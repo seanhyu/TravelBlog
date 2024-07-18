@@ -2,10 +2,12 @@ import React from 'react'
 import Standard from '../../components/standard/Standard'
 import "./LocationsStyles.css"
 
+// Import images
 import Kilimanjaro from '../../assets/kilimanjaro.jpg'
 import Team from '../../assets/kiliTeam.jpg'
 import Summit from '../../assets/kiliSummit.jpg'
 
+// Displays the Kilimanjaro page
 export function Tanzania() {
     return (
         <div>

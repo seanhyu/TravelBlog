@@ -1,6 +1,8 @@
 import React from 'react'
 import './ContactContentStyles.css'
 
+// Contact information content
+
 function ContactContent() {
     return (
         <div className='contact-info'>

@@ -2,7 +2,7 @@ import React from 'react'
 import './SelectsImgsStyles.css'
 import {Link} from 'react-router-dom'
 
-
+// Displays images within the image grid of the home page and travel blog page
 function SelectsImg(props) {
     return (
         <div className='selects-location'>

@@ -2,9 +2,11 @@ import React from 'react'
 import Standard from '../../components/standard/Standard'
 import "./LocationsStyles.css"
 
+// Import images
 import CanadaLights from '../../assets/northernLights.jpg'
 import IcelandLights from '../../assets/northernLightsIceland.jpg'
 
+// Displays the Northern Lights page
 export function NorthernLights () {
     return (
         <div>

@@ -2,10 +2,12 @@ import React from 'react'
 import Standard from '../../components/standard/Standard'
 import "./LocationsStyles.css"
 
+// Import images
 import Snowdonia from '../../assets/snowdonia.jpg'
 import Cliffs from '../../assets/chalkCliffs.jpg'
 import Stonehenge from '../../assets/stonehenge.jpg'
 
+// Displays the UK page
 export function UK() {
     return (
         <div>

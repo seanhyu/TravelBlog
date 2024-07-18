@@ -1,3 +1,4 @@
+/* Style adjustments for the Finances page */
 .finances-content h2 {
     text-align: center;
     padding-bottom: 2rem;
@@ -37,7 +38,7 @@
     margin-bottom: 1rem;
 }
 
-
+/* Additional adjustments for mobile screens */
 
 @media screen and (max-width: 740px) {
     

@@ -2,9 +2,11 @@ import React from 'react'
 import Standard from '../../components/standard/Standard'
 import "./LocationsStyles.css"
 
+// Import images
 import CanadaEclipse from '../../assets/solarEclipse.jpg'
 import Beads from '../../assets/beads.jpg'
 
+// Displays the Solar Eclipse page
 export function SolarEclipse () {
     return (
         <div>
